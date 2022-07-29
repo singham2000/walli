@@ -77,7 +77,7 @@
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: white;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
@@ -88,10 +88,57 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #ffffff;
 }
-
+.nature{
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 300px;
+  background-image: url(../public/images/nature.jpeg);
+  background-size: cover;
+}
+.SkyScrappers{
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+ width: 300px;
+  background-image: url(../public/images/SkyScrappers.jpeg);
+}
+.Abstract{
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+ width: 300px;
+  background-image: url(../public/images/abstract.jpeg);
+}
+.Games{
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+ width: 300px;
+  background-image: url(../public/images/games.webp);
+}
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
